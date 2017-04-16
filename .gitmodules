@@ -1,9 +1,6 @@
 [submodule "Carthage/Checkouts/GoogleAPIClient"]
 	path = Carthage/Checkouts/GoogleAPIClient
 	url = git@github.com:google/google-api-objectivec-client.git
-[submodule "Carthage/Checkouts/AppAuth"]
-	path = Carthage/Checkouts/AppAuth
-	url = git@github.com:openid/AppAuth-iOS.git
 [submodule "Carthage/Checkouts/GTMAppAuth"]
 	path = Carthage/Checkouts/GTMAppAuth
 	url = git@github.com:google/GTMAppAuth.git
