@@ -47,7 +47,7 @@
 		3814E7A11EA1B46F00C98251 /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E78F1EA1B46F00C98251 /* GTLQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3814E7A21EA1B46F00C98251 /* GTLRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7901EA1B46F00C98251 /* GTLRuntimeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3814E7A31EA1B46F00C98251 /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E7911EA1B46F00C98251 /* GTLRuntimeCommon.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3814E7A41EA1B46F00C98251 /* GTLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7921EA1B46F00C98251 /* GTLService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3814E7A41EA1B46F00C98251 /* GTLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7921EA1B46F00C98251 /* GTLService.h */; };
 		3814E7A51EA1B46F00C98251 /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E7931EA1B46F00C98251 /* GTLService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3814E7A61EA1B46F00C98251 /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7941EA1B46F00C98251 /* GTLUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3814E7A71EA1B46F00C98251 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E7951EA1B46F00C98251 /* GTLUploadParameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };

@@ -18,7 +18,6 @@
 #import "GTLObject.h"
 #import "GTLQuery.h"
 #import "GTLRuntimeCommon.h"
-#import "GTLService.h"
 #import "GTLUploadParameters.h"
 #import "GTLBase64.h"
 #import "GTLFramework.h"
