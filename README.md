@@ -20,6 +20,16 @@ Installed via `git submodule`, `Carthage` or ~~pod 'DriveKit'~~ once use whateve
 
 Note: this is not a public podspec because im not sure about name collissions or redistribution issues.
 
+## Quirks/Issues
+
+Due to Using `google-service-api`s headers in the 'raw' the following GCC preprocessor flags must be added to avoid non module based imports.
+
+```
+GTL_USE_SESSION_FETCHER=1
+GTL_USE_FRAMEWORK_IMPORTS=1
+```
+
+`GTMAppAuth` has some nullibility and docstring issues I would prefer to not edit the code so a custom header is defined withing target Support. tvOS needs these files but my project doesnt need tvOS.
 
 ## Author
 
