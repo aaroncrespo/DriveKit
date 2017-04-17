@@ -25,7 +25,6 @@
 		3814E6F81EA1B26E00C98251 /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E6F01EA1B26E00C98251 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3814E6F91EA1B26E00C98251 /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E6F11EA1B26E00C98251 /* GTMSessionUploadFetcher.m */; };
 		3814E7171EA1B32700C98251 /* GoogleAPIClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7121EA1B31C00C98251 /* GoogleAPIClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3814E7211EA1B36E00C98251 /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7181EA1B36E00C98251 /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3814E7221EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7191EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3814E7231EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E71A1EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization.m */; };
 		3814E7241EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E71B1EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization+Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,7 +102,7 @@
 		3814E80B1EA1B49B00C98251 /* GTLQueryDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E7E21EA1B49B00C98251 /* GTLQueryDrive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3814E80C1EA1B49B00C98251 /* GTLServiceDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E7E31EA1B49B00C98251 /* GTLServiceDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3814E80D1EA1B49B00C98251 /* GTLServiceDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814E7E41EA1B49B00C98251 /* GTLServiceDrive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3814E8151EA1B78700C98251 /* GTMAppAuth-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3814E80F1EA1B78700C98251 /* GTMAppAuth-prefix.pch */; };
+		3814E8151EA1B78700C98251 /* GTMAppAuth-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3814E80F1EA1B78700C98251 /* GTMAppAuth-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		3814E8161EA1B78700C98251 /* GTMAppAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3814E8101EA1B78700C98251 /* GTMAppAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38D6F9B31EA437F80040B79C /* AppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D6F9801EA437F80040B79C /* AppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38D6F9B41EA437F80040B79C /* OIDAuthorizationService+IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D6F9811EA437F80040B79C /* OIDAuthorizationService+IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -313,6 +312,14 @@
 		3814E8111EA1B78700C98251 /* GTMAppAuth.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = GTMAppAuth.modulemap; path = "Carthage/Checkouts/Target Support Files/GTMAppAuth/GTMAppAuth.modulemap"; sourceTree = SOURCE_ROOT; };
 		3814E8121EA1B78700C98251 /* GTMAppAuth.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = GTMAppAuth.xcconfig; path = "Carthage/Checkouts/Target Support Files/GTMAppAuth/GTMAppAuth.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3814E8131EA1B78700C98251 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Carthage/Checkouts/Target Support Files/GTMAppAuth/Info.plist"; sourceTree = SOURCE_ROOT; };
+		381D27BF1EA4412200592707 /* GTMTVAuthorizationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMTVAuthorizationRequest.h; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVAuthorizationRequest.h; sourceTree = SOURCE_ROOT; };
+		381D27C01EA4412200592707 /* GTMTVAuthorizationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMTVAuthorizationRequest.m; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVAuthorizationRequest.m; sourceTree = SOURCE_ROOT; };
+		381D27C11EA4412200592707 /* GTMTVAuthorizationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMTVAuthorizationResponse.h; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVAuthorizationResponse.h; sourceTree = SOURCE_ROOT; };
+		381D27C21EA4412200592707 /* GTMTVAuthorizationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMTVAuthorizationResponse.m; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVAuthorizationResponse.m; sourceTree = SOURCE_ROOT; };
+		381D27C31EA4412200592707 /* GTMTVAuthorizationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMTVAuthorizationService.h; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVAuthorizationService.h; sourceTree = SOURCE_ROOT; };
+		381D27C41EA4412200592707 /* GTMTVAuthorizationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMTVAuthorizationService.m; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVAuthorizationService.m; sourceTree = SOURCE_ROOT; };
+		381D27C51EA4412200592707 /* GTMTVServiceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMTVServiceConfiguration.h; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVServiceConfiguration.h; sourceTree = SOURCE_ROOT; };
+		381D27C61EA4412200592707 /* GTMTVServiceConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMTVServiceConfiguration.m; path = Carthage/Checkouts/GTMAppAuth/Source/GTMTVServiceConfiguration.m; sourceTree = SOURCE_ROOT; };
 		38D6F9801EA437F80040B79C /* AppAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppAuth.h; path = "Carthage/Checkouts/AppAuth-iOS/Source/Framework/AppAuth.h"; sourceTree = SOURCE_ROOT; };
 		38D6F9811EA437F80040B79C /* OIDAuthorizationService+IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OIDAuthorizationService+IOS.h"; path = "Carthage/Checkouts/AppAuth-iOS/Source/iOS/OIDAuthorizationService+IOS.h"; sourceTree = SOURCE_ROOT; };
 		38D6F9821EA437F80040B79C /* OIDAuthorizationService+IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "OIDAuthorizationService+IOS.m"; path = "Carthage/Checkouts/AppAuth-iOS/Source/iOS/OIDAuthorizationService+IOS.m"; sourceTree = SOURCE_ROOT; };
@@ -493,6 +500,14 @@
 		408CB543DE8225CA83B36CAE8A7F83E2 /* GTMAppAuth */ = {
 			isa = PBXGroup;
 			children = (
+				381D27BF1EA4412200592707 /* GTMTVAuthorizationRequest.h */,
+				381D27C01EA4412200592707 /* GTMTVAuthorizationRequest.m */,
+				381D27C11EA4412200592707 /* GTMTVAuthorizationResponse.h */,
+				381D27C21EA4412200592707 /* GTMTVAuthorizationResponse.m */,
+				381D27C31EA4412200592707 /* GTMTVAuthorizationService.h */,
+				381D27C41EA4412200592707 /* GTMTVAuthorizationService.m */,
+				381D27C51EA4412200592707 /* GTMTVServiceConfiguration.h */,
+				381D27C61EA4412200592707 /* GTMTVServiceConfiguration.m */,
 				3814E7181EA1B36E00C98251 /* GTMAppAuth.h */,
 				3814E7191EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization.h */,
 				3814E71A1EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization.m */,
@@ -807,11 +822,10 @@
 			files = (
 				3814E7241EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */,
 				3814E7261EA1B36E00C98251 /* GTMKeychain.h in Headers */,
-				3814E8151EA1B78700C98251 /* GTMAppAuth-prefix.pch in Headers */,
 				3814E7271EA1B36E00C98251 /* GTMOAuth2KeychainCompatibility.h in Headers */,
 				3814E7221EA1B36E00C98251 /* GTMAppAuthFetcherAuthorization.h in Headers */,
+				3814E8151EA1B78700C98251 /* GTMAppAuth-prefix.pch in Headers */,
 				3814E8161EA1B78700C98251 /* GTMAppAuth-umbrella.h in Headers */,
-				3814E7211EA1B36E00C98251 /* GTMAppAuth.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
