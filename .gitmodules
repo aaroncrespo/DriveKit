@@ -1,9 +1,9 @@
-[submodule "Carthage/Checkouts/GoogleAPIClient"]
-	path = Carthage/Checkouts/GoogleAPIClient
-	url = git@github.com:google/google-api-objectivec-client.git
 [submodule "Carthage/Checkouts/GTMAppAuth"]
 	path = Carthage/Checkouts/GTMAppAuth
 	url = git@github.com:google/GTMAppAuth.git
 [submodule "Carthage/Checkouts/GTMSessionFetcher"]
 	path = Carthage/Checkouts/GTMSessionFetcher
 	url = git@github.com:google/gtm-session-fetcher.git
+[submodule "Carthage/Checkouts/GoogleAPIClientRest"]
+	path = Carthage/Checkouts/GoogleAPIClientRest
+	url = git@github.com:google/google-api-objectivec-client-for-rest.git

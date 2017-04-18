@@ -22,6 +22,8 @@ Note: this is not a public podspec because im not sure about name collissions or
 
 ## Quirks/Issues
 
+#### Google Service
+
 Due to Using `google-service-api`s headers in the 'raw' the following GCC preprocessor flags must be added to avoid non module based imports.
 
 ```
@@ -29,7 +31,13 @@ GTL_USE_SESSION_FETCHER=1
 GTL_USE_FRAMEWORK_IMPORTS=1
 ```
 
+#### Google AppAuth
+
 `GTMAppAuth` has some nullibility and docstring issues I would prefer to not edit the code so a custom header is defined withing target Support. tvOS needs these files but my project doesnt need tvOS.
+
+#### AppAuth
+
+AppAuth-iOS/AppAuth supports carthage but GTMAppAuth has some weird building issues on those releases. Works fine when building as a dependency but local builds don't play well with the project layout. Workaround: he local scheme is suppressed to avoid multiple builds depency builds use the `carthage` `AppAuth-iOS` dependency local builds and GTMSession/GTMAppAuth use the local build settings and headers.  
 
 ## Author
 
