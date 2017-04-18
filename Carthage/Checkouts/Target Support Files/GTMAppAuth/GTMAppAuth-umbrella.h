@@ -12,6 +12,7 @@
 
 #import "GTMAppAuthFetcherAuthorization.h"
 #import "GTMAppAuthFetcherAuthorization+Keychain.h"
+#import "GTMKeychain.h"
 
 #if TARGET_OS_TV
 #import "GTMTVAuthorizationRequest.h"
