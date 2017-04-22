@@ -24,12 +24,7 @@ Note: this is not a public podspec because im not sure about name collissions or
 
 #### Google Service
 
-Due to Using `google-service-api`s headers in the 'raw' the following GCC preprocessor flags must be added to avoid non module based imports.
-
-```
-GTL_USE_SESSION_FETCHER=1
-GTL_USE_FRAMEWORK_IMPORTS=1
-```
+The build is very manually built. The google repo is very close to being Carthage compatable.
 
 #### Google AppAuth
 
@@ -37,7 +32,7 @@ GTL_USE_FRAMEWORK_IMPORTS=1
 
 #### AppAuth
 
-AppAuth-iOS/AppAuth supports carthage but GTMAppAuth has some weird building issues on those releases. Works fine when building as a dependency but local builds don't play well with the project layout. Workaround: he local scheme is suppressed to avoid multiple builds depency builds use the `carthage` `AppAuth-iOS` dependency local builds and GTMSession/GTMAppAuth use the local build settings and headers.  
+AppAuth-iOS/AppAuth supports carthage but GTMAppAuth has some weird building issues on those releases. Works fine when building as a dependency but local builds don't play well with the project layout. Workaround: he local scheme is suppressed to avoid multiple builds depency builds use the `carthage` `AppAuth-iOS` dependency local builds and GTMSession/GTMAppAuth use the local build settings and headers.
 
 ## Author
 
