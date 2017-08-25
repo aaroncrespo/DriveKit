@@ -16,23 +16,23 @@ hopefully: none
 
 ## Installation
 
-Installed via `git submodule`, `Carthage` or ~~pod 'DriveKit'~~ once use whatever means you prefer to add as a depenency to a project
+Installed via `git submodule`, `Carthage` or ~~pod 'DriveKit'~~. Use whatever means need to add this as a depenency to a project
 
-Note: this is not a public podspec because im not sure about name collissions or redistribution issues.
+Note: this is not a public podspec because im not sure about name collisions or redistribution issues.
 
 ## Quirks/Issues
 
 #### Google Service
 
-The build is very manually built. The google repo is very close to being Carthage compatable.
+The build is manually setup. The google repo is very close to being Carthage compatable.
 
 #### Google AppAuth
 
-`GTMAppAuth` has some nullibility and docstring issues I would prefer to not edit the code so a custom header is defined withing target Support. tvOS needs these files but my project doesnt need tvOS.
+`GTMAppAuth` has some nullibility and docstring issues I would prefer to not edit the code so a custom header is defined within target Support. tvOS would need these files but my project doesnt need tvOS.
 
 #### AppAuth
 
-AppAuth-iOS/AppAuth supports carthage but GTMAppAuth has some weird building issues on those releases. Works fine when building as a dependency but local builds don't play well with the project layout. Workaround: he local scheme is suppressed to avoid multiple builds depency builds use the `carthage` `AppAuth-iOS` dependency local builds and GTMSession/GTMAppAuth use the local build settings and headers.
+AppAuth-iOS/AppAuth supports carthage but GTMAppAuth has some weird building issues on those releases. Works fine when building as a dependency but local builds don't play well with the project layout. Workaround: the local scheme is suppressed. To avoid multiple duplicate depency builds use the `carthage` `AppAuth-iOS` dependency. This builds AppAuth and GTMSession/GTMAppAuth use products and headers.
 
 ## Author
 
