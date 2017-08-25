@@ -1,6 +1,6 @@
 # DriveKit
 
-> **Note**: This was written to scratch own itch. There are probably better ways to handle CocoaPods and Carthage as a Library. If you find a use for this and would like to help make it better checkout [GTMAppAuth issue](https://github.com/google/GTMAppAuth/issues/24) or help make this project better with pull requests.
+> **Note**: This was written to scratch my own itch. There are probably better ways to handle CocoaPods and Carthage as a Library Author. If you find a use for this and would like to help make it better checkout [GTMAppAuth issue](https://github.com/google/GTMAppAuth/issues/24) or help make this project better with pull requests.
 
 
 What is this:
